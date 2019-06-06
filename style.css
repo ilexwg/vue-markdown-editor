@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#notebook {
+  display: flex;
+  height: 100vh;
+  padding: 10px;
+}
+
+.main,
+.preview {
+  flex: 1;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  border: solid 1px #eee;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.preview {
+  margin-left: 10px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-left: solid 6px #ccc;
+  background-color: #f8f8f8;
+}
